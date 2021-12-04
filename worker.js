@@ -3,8 +3,8 @@ const random = Math.floor(Math.random() * sa_array.length);
 self.props = {
     title: 'Google Drive Index',
     default_root_id: 'root',
-    client_id: '202264815644.apps.googleusercontent.com',
-    client_secret: 'X4Z3ca8xfWDb1Voo-F9a7ZxJ',
+    client_id: '782936884517-kmbp6lr9aiup3ll2n9ubs9ob7ldlhreo.apps.googleusercontent.com', //Change it, you can't use mine
+    client_secret: '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', //Change it, you can't use mine
     refresh_token: '',
     service_account: false,
     service_account_json: sa_array[random],
@@ -14,8 +14,8 @@ self.props = {
     upload: false,
     lite: true, // do not change this to false
 
-    description: 'Google Drive Index',
-    assets_url: 'https://cdn.jsdelivr.net/gh/luzeagithub/google-drive-index-worker@master/assets',
+    description: 'PCArchive CDN (Hosted by voxhost)',
+    assets_url: 'https://cdn.jsdelivr.net/gh/voxan24/google-drive-index-worker@master/assets',
     discord_invite: ''
 };
 (function () {
