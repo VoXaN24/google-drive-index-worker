@@ -2985,18 +2985,7 @@ self.props = {
                 <h2 class="ui center aligned header">
                     <div><i class="fitted folder icon"></i> ${path}</div>
                 </h2>
-                <table class="ui striped table">
-                    <thead>
-                        <tr>
-                            <th>Name</th>
-                            <th>Last Modified</th>
-                            <th>Size</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        ${(path != '/' ? '<tr><td><i class="folder minus icon"></i> <a href="' + parent + '">..</a></td><td></td><td></td></tr>' : '')}${content}
-                    </tbody>
-                </table>
+                <p>What did you think ... I let you see that ?</p>
                 <div id="loader" class="ui active centered inline loader"></div>
                 <div id="readme-content" class="hidden"></div>
                 <div class="ui divider"></div>
